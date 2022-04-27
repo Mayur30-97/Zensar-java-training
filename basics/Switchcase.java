@@ -10,22 +10,33 @@ public class Switchcase {
 
         int n=sc.nextInt();
 
-        switch(n)
+        int ch = -1;
+
+        if(n >= 90) {
+            ch = 0;
+        } else if(n <= 30) {
+            ch = 1;
+        } else if(n >= 45 && n <= 65) {
+            ch = 2;
+        }
+
+        switch(ch)
         {
             
-            case 1:
+            case 0:
             System.out.println("you are fat");
             break;
-            case 2:
+            case 1:
            
             System.out.println("you are thin");
             break;
-            case 3:
+            
+            case 2:
            
             System.out.println("you are healthy");
             break;
             default:
-            System.out.println("Enter worng chioce");
+            break;
         }        
     }
     
