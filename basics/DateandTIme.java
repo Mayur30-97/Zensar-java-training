@@ -12,9 +12,10 @@ public class DateandTIme {
         System.out.println(LocalDate.now());
 
         System.out.println(LocalDateTime.now());
-        //ZoneId.getAvailableZoneIds().forEach(System.out::println);
+       // ZoneId.getAvailableZoneIds().forEach(System.out::println);
 
-        //System.out.println(Localtime.now(ZoneId.of("")));
+        System.out.println(LocalTime.now(ZoneId.of("America/Cuiaba")));
+        System.out.println(LocalTime.now(ZoneId.of("US/Michigan")));
         
     }
 }

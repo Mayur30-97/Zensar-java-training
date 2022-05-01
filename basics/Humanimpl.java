@@ -4,12 +4,12 @@ public class Humanimpl implements HumanInterfaceEx, InterfaceEx {
     
     
     public static void main(String[] args) {
-       new Humanimpl(). walk();
+       new Humanimpl().walk();
        new Humanimpl().singing();
        new Humanimpl().driving();
-        new Humanimpl().hello();
-        new Humanimpl().talk();
-        new Humanimpl().dance();
+       new Humanimpl().hello();
+       new Humanimpl().talk();
+       new Humanimpl().dance();
     }
 
     @Override
