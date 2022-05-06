@@ -36,7 +36,7 @@ public class MedicalShopStack {
         public static void main(String[] args) {
             detailsStack d=InputdetailsSatack();
 
-            s.add(d);
+            s.push(d);
 
             s.forEach(e->{
                 System.out.println("ID:--"+ e.getId());
